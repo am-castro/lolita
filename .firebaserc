@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "lolita-blog": {
+      "hosting": {
+        "lolita-blog": [
+          "lolita-blog"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "lolita-blog"
+  }
+}

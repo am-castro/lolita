@@ -1,0 +1,19 @@
+<div fxLayout="row wrap" fxLayoutAlign="space-between start" class="content" *ngIf="bippys">
+    <div fxFlex="51" fxFlex.gt-sm="33" *ngFor="let bippy of bippys">
+        <mat-card class="m-10">
+            <img mat-card-image [src]="bippy.photo" alt="Photo of a Shiba Inu" class="bippyPhoto">
+            <mat-card-content>
+                <p>
+                    {{bippy.description}}
+                </p>
+            </mat-card-content>
+            <div fxLayout="row">
+                <img [src]="bippy.photo" style="width: 50px; height: 50px; border-radius: 30px" alt="Photo of a Shiba Inu">
+                <div class="m-l-10">
+                    <mat-card-title>Larissa Bianca</mat-card-title>
+                    <mat-card-subtitle>Criadora de conteúdo</mat-card-subtitle>
+                </div>
+            </div>
+        </mat-card>
+    </div>
+</div>

@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root{
+    --primary: #DB6829;
+    --secondary: #ffffff;
+    --accent: #000;
+    --blue-bird: #4f4fd3;
+
+    --postit-1: #FFF7F7;
+    --postit-2: #D8CFE6;
+    --postit-3: #F0F5F7;
+    --postit-4: #CCE6CF;
+    --postit-5: #F4F0CB;
+
+    --link: var(--blue-bird);
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.content{
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.p-10{
+    padding: 10px;
+}
+.m-10{
+    margin: 10px;
+}
+.m-t-10{
+    margin-top: 10px;
+}
+.p-20{
+    padding: 20px;
+}
+.m-20{
+    margin: 20px;
+}
+.m-r-10{
+    margin-right: 10px;
+}
+.m-l-10{
+    margin-left: 10px;
+}
+.m-r-20{
+    margin-right: 20px;
+}
+.m-l-20{
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: var(--link);
+}

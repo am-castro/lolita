@@ -1,0 +1,11 @@
+<mat-toolbar>
+    <img src="/assets/img/logo_lolita.png" height="30px">
+    <span fxFlex></span>
+
+    <button mat-icon-button class="menu p-r-20" matTooltip="Visualizar novos Bippys" matBadge="5" matBadgeColor="warn" matBadgeSize="small"><fa-icon [icon]="icons.home"></fa-icon></button>
+    <button mat-icon-button class="menu p-l-20" matTooltip="Alertas" matBadge="5" matBadgeColor="warn" matBadgeSize="small" ><fa-icon [icon]="icons.alert"></fa-icon></button>
+
+    <span fxFlex></span>
+    <button mat-icon-button class="menu p-l-20" matTooltip="Postar um novo Bippy"><fa-icon [icon]="icons.new"></fa-icon></button>
+    <button mat-flat-button class="account" routerLink="/auth">Entrar/Criar conta</button>
+</mat-toolbar>
